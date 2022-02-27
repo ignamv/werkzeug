@@ -34,7 +34,7 @@ Request Body
 By passing a dict to ``data``, the client will construct a request body
 with file and form data. It will set the content type to
 ``application/x-www-form-urlencoded`` if there are no files, or
-``multipart/form-data`` there are.
+``multipart/form-data`` if there are.
 
 .. code-block:: python
 
